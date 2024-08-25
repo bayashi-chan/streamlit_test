@@ -21,5 +21,5 @@ y = pd.Series(iris.target,name="species")
 #　学習データとテストデータに分割
 train_test_split(x,y,test_sizr=0.3)
 
-
+print("0825henkou")
 
