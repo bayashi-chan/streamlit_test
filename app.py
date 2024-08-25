@@ -1,10 +1,11 @@
 import pandas as pd 
 import streamlit as st 
 
-st.title('Hello, Streamlit!')
+st.title('Streamlitやってみる これはst.titleの大きさ')
 
-st.title('Hello, :blue[Streamlit!]:sunglasses:')
-st.write('Hello, Streamlit!')
+#titleは大きな文字、:blue[]の[]は中の文字を青くする、:sunglasses: は サングラスをかけた顔の絵文字
+st.title("Hello, :blue[Bayashi's HP]:sunglasses:")
+st.write('writeの大きさで記載')
 
 st.write(
     pd.DataFrame(
@@ -17,9 +18,11 @@ st.write(
 
 st.link_button("yahooファイナンス","https://finance.yahoo.co.jp/")
 
-st.header("Hello World", divider="rainbow")
+st.header("Stramlitでは何ができるのか、下記にいろいろ行ってみる", divider="rainbow")
 
-code = """print("hello")"""
+#”””は、複数行にまたがる文字列を記載できる？
+code = """print("まず、文を表示してみる。")"""
+#printはそのまま表示、st.codeはStreamlit上でコードそのものを表示したいときに用いる。あ
 st.code(code,language="python")
 
 agree = st.checkbox("I agree?")
