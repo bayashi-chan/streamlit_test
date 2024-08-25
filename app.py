@@ -15,7 +15,7 @@ st.write(
     )
 )
 
-st.link_button("やほーﾌｧｲﾅﾝｽ","https://finance.yahoo.co.jp/")
+st.link_button("yahooファイナンス","https://finance.yahoo.co.jp/")
 
 st.header("Hello World", divider="rainbow")
 
@@ -160,7 +160,7 @@ with st.popover("もっと詳しく見る"):
 
 #サイドバー
 with st.sidebar:
-    st.title("こば〜んと申します")
+    st.title("ばやと申します")
     st.write("詳細１")
 
 #notification
