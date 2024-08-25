@@ -180,3 +180,5 @@ st.page_link("app.py",label="Home",icon="🏠")
 st.page_link("pages/page1.py",label="page1")
 st.page_link("pages/page2.py",label="page2")
 st.page_link("https://docs.streamlit.io/develop/api-reference",label="StreamlitのAPIドキュ")
+
+print("0825に編集追加した")
